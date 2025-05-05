@@ -9,14 +9,31 @@
 
 // nameless function 
 
-let x = function (){
-    console.log("nameless function");
+// let x = function (){
+//     console.log("nameless function");
     
-}
-x()
+// }
+// x()
 
-let y =()=>{
-    console.log("Arrow function");
+// let y =()=>{
+//     console.log("Arrow function");
     
-}
-y()
+// }
+// y()
+
+// let z = ["a", "b", "c"]
+
+// z.map(item=>{
+//     console.log(item);
+    
+// })
+
+// let info = {
+//     name : "motasim",
+//     age : 25,
+//     area : function () {
+//         console.log("noakhali");
+        
+//     }
+// }
+// info.area()
