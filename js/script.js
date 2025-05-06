@@ -1,84 +1,50 @@
+// screen one
 
-// screen one 
+let playerOneNameInput = document.querySelector(".playerOneNameInput");
 
-let playerOneNameInput = document.querySelector(".playerOneNameInput")
+let startGameBtn = document.querySelector(".startGameBtn");
 
-let startGameBtn = document.querySelector(".startGameBtn")
+let screenOneError = document.querySelector(".screenOneError");
 
-let screenOneError = document.querySelector(".screenOneError")
+let screenOne = document.querySelector("screenOne");
 
-let screenOne = document.querySelector("screenOne")
-// screen one 
+let heading = document.querySelector(".heading");
+// screen one
 
-// screen two 
-let screenTwo = document.querySelector(".screenTwo")
-// screen two 
+// screen two
+let screenTwo = document.querySelector(".screenTwo");
+// screen two
 
-startGameBtn.addEventListener("click", function(){
-    if (playerOneNameInput.value == "") {
-        screenOneError.style.display= "block"
-    }
-    else{
-        screenOne.style.display= "none"
-        screenTwo.style.display="block"
-    }
-    
-})
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+startGameBtn.addEventListener("click", function () {
+  if (playerOneNameInput.value == "") {
+    screenOneError.style.display = "block";
+  } 
+  else {
+    screenTwo.style.display = "block";  
+    screenOne.style.display = "none";
+  }
+});
 
 // function info(name, age) {
-    
+
 //     console.log("Hello my name is " + name + " my age is " + age);
-    
+
 // }
 // info("Motasim", 25)
 // info("rafi", 20)
 // info("talid", 23)
 
-// nameless function 
+// nameless function
 
 // let x = function (){
 //     console.log("nameless function");
-    
+
 // }
 // x()
 
 // let y =()=>{
 //     console.log("Arrow function");
-    
+
 // }
 // y()
 
@@ -86,7 +52,7 @@ startGameBtn.addEventListener("click", function(){
 
 // z.map(item=>{
 //     console.log(item);
-    
+
 // })
 
 // let info = {
@@ -94,7 +60,7 @@ startGameBtn.addEventListener("click", function(){
 //     age : 25,
 //     area : function () {
 //         console.log("noakhali");
-        
+
 //     }
 // }
 // info.area()
