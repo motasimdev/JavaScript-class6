@@ -19,13 +19,15 @@ a{
     margin: 0 auto;
     width: 600px;
     padding: 20px;
+    padding-top: 40px;
     margin-top: 20px;
     background: #ddd;
     border-radius: 10px;
     text-align: center;
+    height: 250px;
 }
 
-.inputName{
+.playerOneNameInput{
     margin-top: 20px;
     width: 500px;
     border-radius: 50px;
@@ -35,7 +37,7 @@ a{
 
 }
 
-.inputName::placeholder{
+.playerOneNameInput::placeholder{
     color: black;
     font-size: 16px;   
 }
@@ -56,4 +58,5 @@ a{
     padding: 10px;
     background: red;
     color: #fff;
+    display: none;
 }

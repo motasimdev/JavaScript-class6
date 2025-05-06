@@ -1,5 +1,17 @@
 
+// screen one 
 
+let playerOneName = document.querySelector(".playerOneNameInput")
+
+let startGameBtn = document.querySelector(".startGameBtn")
+// screen one 
+
+startGameBtn.addEventListener("click", function(){
+    if (playerOneName.value == "") {
+        
+    }
+    
+})
 
 
 
