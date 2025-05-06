@@ -1,14 +1,26 @@
 
 // screen one 
 
-let playerOneName = document.querySelector(".playerOneNameInput")
+let playerOneNameInput = document.querySelector(".playerOneNameInput")
 
 let startGameBtn = document.querySelector(".startGameBtn")
+
+let screenOneError = document.querySelector(".screenOneError")
+
+let screenOne = document.querySelector("screenOne")
 // screen one 
 
+// screen two 
+let screenTwo = document.querySelector(".screenTwo")
+// screen two 
+
 startGameBtn.addEventListener("click", function(){
-    if (playerOneName.value == "") {
-        
+    if (playerOneNameInput.value == "") {
+        screenOneError.style.display= "block"
+    }
+    else{
+        screenOne.style.display= "none"
+        screenTwo.style.display="block"
     }
     
 })

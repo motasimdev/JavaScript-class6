@@ -24,7 +24,7 @@ a{
     background: #ddd;
     border-radius: 10px;
     text-align: center;
-    height: 250px;
+    height: 300px;
 }
 
 .playerOneNameInput{
@@ -58,5 +58,20 @@ a{
     padding: 10px;
     background: red;
     color: #fff;
+    display: none;
+}
+/* screen one end  */
+/* ========================== */
+
+.screenTwo{
+    margin: 0 auto;
+    width: 600px;
+    padding: 20px;
+    padding-top: 40px;
+    margin-top: 20px;
+    background: #ddd;
+    border-radius: 10px;
+    text-align: center;
+    height: 300px;
     display: none;
 }
